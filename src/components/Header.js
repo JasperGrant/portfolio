@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 export default function Header() {
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-fuchsia-900 p-6">
+        <nav className="flex items-center justify-between flex-wrap bg-plum p-6">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <img className="fill-current h-8 w-8 mr-2" width="54" height="54"/>
                 <span className="font-semibold text-xl tracking-tight">Jasper Grant's Engineering Portfolio</span>
