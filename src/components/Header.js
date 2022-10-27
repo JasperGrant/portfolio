@@ -18,7 +18,7 @@ export default function Header() {
 export function MenuButton(props){
     return(
         <div>
-            <Link to={props.path} className="flex items-center px-3 py-2 text-orange-600 hover:text-white">
+            <Link to={props.path} className="flex items-center px-3 py-2 text-white hover:text-turquoise">
                 {props.text}
             </Link>
         </div>
