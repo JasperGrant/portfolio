@@ -1,4 +1,4 @@
-#Engineering Portfolio Website
+# Engineering Portfolio Website
 
 Portfolio to demonstrate my achievements while also providing a demonstration of skills in React, JavaScript, HTML, and CSS.
 
