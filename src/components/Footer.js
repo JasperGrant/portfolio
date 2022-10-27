@@ -4,7 +4,7 @@ import LinkedinLogo from '../img/LinkedinLogo.png'
 
 export default function Footer() {
     return (
-        <div className=" flex items-center justify-center bg-plum p-6">
+        <div className=" flex items-center justify-center bg-plum p-8">
             <a href="https://github.com/JasperGrant" className="h-8 w-8">
                 <img src={GitHubLogo} alt="Github Logo"/>
             </a>
