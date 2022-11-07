@@ -57,7 +57,7 @@ export function Project(props) {
     return (
         <div className="m-4 my-4 rounded-sm">
             <a href={props.link}>
-                <img className="rounded-lg object-cover w-full h-56 hover:border-8 hover:border-turquoise" src={props.photo} alt="Cannot Display Image"/>
+                <img className="rounded-lg object-cover w-full h-56 hover:border-8 hover:border-turquoise" src={props.photo} alt="Project"/>
                 <h5 className="text-center w-full mb-2 text-2xl font-bold text-white">{props.title}</h5>
                 <p className="mx-8 text-left w-full font-normal text-white">{props.description}</p>
             </a>

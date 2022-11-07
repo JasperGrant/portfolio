@@ -9,7 +9,11 @@ module.exports = {
       'turquoise': '#2dd4bf',
       'white': '#ffffff'
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'DALCampus' : "url('./img/DALCampus.png')"
+      }
+    },
   },
   plugins: [],
 }
