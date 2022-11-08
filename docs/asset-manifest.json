@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ffd1029b.css",
+    "main.js": "/static/js/main.342bf0dc.js",
+    "static/media/Hercules.png": "/static/media/Hercules.cf5b067f8e6986059a64.png",
+    "static/media/DALCampus.png": "/static/media/DALCampus.257b945d7a5c6eb87812.png",
+    "static/media/Jasper.png": "/static/media/Jasper.e4a6687c655085356161.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.d9dda200279904f45a1d.png",
+    "static/media/LORIS.png": "/static/media/LORIS.691b39103b9a6ef5ce1e.png",
+    "static/media/RSS.png": "/static/media/RSS.7cb6d5ed4573b27aaaa5.png",
+    "static/media/RSS2.png": "/static/media/RSS2.afbf9520a78acfa5f14d.png",
+    "static/media/LORIS2.png": "/static/media/LORIS2.b700b35237db7c7dc096.png",
+    "static/media/EGG.png": "/static/media/EGG.fa790339ef97b426e8e0.png",
+    "static/media/LastSpot.png": "/static/media/LastSpot.027f0d94c1556bf624c6.png",
+    "static/media/DALISL.png": "/static/media/DALISL.5028dab7bf861bd40eaf.png",
+    "static/media/ISE.png": "/static/media/ISE.623fe3d2e8a6632b4fbe.png",
+    "static/media/LinkedinLogo.png": "/static/media/LinkedinLogo.ba884e1f9ad4362348c1.png",
+    "static/media/XMakina.png": "/static/media/XMakina.8adbf0b0e70c949fb881.png",
+    "static/media/LockheedMartin.png": "/static/media/LockheedMartin.0e84a8794862232399b9.png",
+    "index.html": "/index.html",
+    "main.ffd1029b.css.map": "/static/css/main.ffd1029b.css.map",
+    "main.342bf0dc.js.map": "/static/js/main.342bf0dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffd1029b.css",
+    "static/js/main.342bf0dc.js"
+  ]
+}
