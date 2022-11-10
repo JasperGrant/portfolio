@@ -24,7 +24,7 @@ export default function Projects() {
                     title="Last Spot"
                     photo={LastSpot}
                     link="https://github.com/fall-hack-2022/fall-hack"
-                    description="Application for finding nearby parking lots"
+                    description="Application for finding nearby parking lots. Winner of third place at SFU Fall-Hacks 2022"
                     skills="React JavaScript HTML CSS"
                 />
                 <Project
@@ -45,7 +45,7 @@ export default function Projects() {
                     title="Hercules Robot"
                     photo={Hercules}
                     link="https://github.com/JasperGrant/Hercules-Robot"
-                    description="Winner of 2nd place in the Gregson Robotic Design Competition."
+                    description="Mine Detection Robot. Winner of 2nd place in the Gregson Robotic Design Competition."
                     skills="Autonomous Pathfinding, C++, Python"
                 />
                 <Project
@@ -59,7 +59,7 @@ export default function Projects() {
                     title="Atlantic Engineering Competition: EGG"
                     photo={EGG}
                     link="/egg"
-                    description="Winner of 1st place in the Senior Design category of the Atlantic Engineering Competition."
+                    description="Egg Protection Rocket. Winner of 1st place in the Senior Design category of the Atlantic Engineering Competition."
                 />
                 <Project
                     title="Robotic Spacecraft Simulator Software"
