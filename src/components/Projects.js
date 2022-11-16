@@ -7,6 +7,7 @@ import XMakina from '../img/XMakina.png';
 import EGG from '../img/EGG.png';
 import RSS from '../img/RSS.png';
 import RSS2 from '../img/RSS2.png'
+import {Link} from "react-router-dom";
 
 export default function Projects() {
     return (
@@ -55,7 +56,7 @@ export default function Projects() {
                     description="Assembly emulator written entirely in C"
                     skills="C Assembly"
                 />
-                <Project
+                <LinkedToSiteProject
                     title="Atlantic Engineering Competition: EGG"
                     photo={EGG}
                     link="/egg"
@@ -87,6 +88,21 @@ export function Project(props) {
                 <h5 className="text-center w-full mb-2 text-2xl font-bold text-white">{props.title}</h5>
                 <p className="px-8 mx-8 text-left w-full font-normal text-white">{props.description}</p>
             </a>
+        </div>
+    );
+
+}
+
+
+export function LinkedToSiteProject(props) {
+    return (
+        <div className="m-4 my-4 rounded-sm">
+            <Link to={props.link}>
+                <img className="bg-white rounded-lg object-cover w-full h-56 hover:border-8 hover:border-turquoise"
+                     src={props.photo} alt="Project"/>
+                <h5 className="text-center w-full mb-2 text-2xl font-bold text-white">{props.title}</h5>
+                <p className="px-8 mx-8 text-left w-full font-normal text-white">{props.description}</p>
+            </Link>
         </div>
     );
 
