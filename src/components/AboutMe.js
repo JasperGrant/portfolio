@@ -4,9 +4,9 @@ import ISE from '../img/ISE.png';
 
 export default function AboutMe() {
     return (
-        <div>
+        <div className="max-w-6xl mx-auto abxl:h-screen">
             <h1 className="text-xl text-white text-center py-8" > About Me</h1>
-            <div className="text-white px-8 sm:px-8 md:px-24 lg:px-72 xl:px-96">
+            <div className="text-white px-8 sm:px-8 md:px-24">
                 My name is Jasper Grant.
                 I am a fourth year Electrical Engineering Student with Computer Option
                 at Dalhousie University.

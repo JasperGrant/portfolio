@@ -11,9 +11,9 @@ import {Link} from "react-router-dom";
 
 export default function Projects() {
     return (
-        <div>
+        <div className="">
             <h1 className="text-xl text-white text-center pt-8" > My Projects</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-stetch">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto xxl:h-screen">
                 <Project
                     title="Portfolio Website"
                     photo={Portfolio}

@@ -3,13 +3,13 @@ import Jasper from '../img/Jasper.png';
 
 export default function Homepage() {
     return (
-        <div className="md:px-24 lg:px-96 bg-center bg-no-repeat bg-DALCampus text-white text-center">
+        <div className="h-full md:px-24 lg:px-72 bg-center bg-cover bg-no-repeat bg-DALCampus text-white text-center max-w-6xl mx-auto hxl:h-screen">
             <br/>
             <br/>
             <br/>
             <img className=" border-neutral border-8 mx-auto rounded-full w-36 h-36" src={Jasper} alt="Headshot"/>
             <br/>
-            <div className=" rounded-lg bg-neutral text-center border-8 border-plum">
+            <div className="mx-auto rounded-lg bg-neutral border-8 border-plum max-w-6xl px-16">
                 <br/>
                 <h1 className="text-3xl mb-8">Jasper Grant</h1>
                 <h2 className="text-xl mb-8">Electrical Engineering Student with Computer Option</h2>

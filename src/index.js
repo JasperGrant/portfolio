@@ -30,4 +30,5 @@ root.render(
             <Footer/>
         </div>
     </React.StrictMode>
+
 );
