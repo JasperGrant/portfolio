@@ -6,7 +6,7 @@ export default function Header() {
         <nav className="flex items-center flex-wrap bg-plum p-6">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <img src={Logo} className="fill-current h-8 w-8 mr-2" width="256" height="256" alt="Logo"/>
-                <span className="font-semibold text-xl tracking-tight sm:text-m">Jasper Grant's Engineering Portfolio</span>
+                <span className="font-semibold md:text-xl tracking-tight sm:text-sm">Jasper Grant's Engineering Portfolio</span>
             </div>
             <div className="flex items-center flex-shrink-0 text-white mr-6 justify-between">
             <MenuButton path = "/" text="Homepage"/>
