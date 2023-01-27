@@ -6,7 +6,6 @@ import Projects from "./components/Projects"
 import Homepage from './components/Homepage';
 import Header from './components/Header';
 import Footer from "./components/Footer";
-import Egg from "./components/Egg";
 import AboutMe from "./components/AboutMe";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,7 +22,6 @@ root.render(
                 <Routes>
                     <Route path="/" element={<Homepage/>}/>
                     <Route path="projects" element={<Projects/>}/>
-                    <Route path="egg" element={<Egg/>}/>
                     <Route path="aboutme" element={<AboutMe/>}/>
                 </Routes>
             </BrowserRouter>

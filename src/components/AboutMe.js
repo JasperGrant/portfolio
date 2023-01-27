@@ -8,7 +8,7 @@ export default function AboutMe() {
             <h1 className="text-xl text-white text-center py-8" > About Me</h1>
             <div className="text-white px-8 sm:px-8 md:px-24">
                 My name is Jasper Grant.
-                I am a fourth year Electrical Engineering Student with Computer Option
+                I am a fourth year Computer Engineering Student
                 at Dalhousie University.
                 My main Engineering interests are <b>Robotics</b> and <b>The Space Industry</b>.
                 In my free time I enjoy Powerlifting and participating in

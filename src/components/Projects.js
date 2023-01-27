@@ -4,11 +4,9 @@ import LORIS from '../img/LORIS.png';
 import LORIS2 from '../img/LORIS2.png';
 import Hercules from '../img/Hercules.png';
 import XMakina from '../img/XMakina.png';
-import EGG from '../img/EGG.png';
 import RSS from '../img/RSS.png';
 import RSS2 from '../img/RSS2.png'
-import {Link} from "react-router-dom";
-
+import YOLO from '../img/YOLO.png'
 export default function Projects() {
     return (
         <div className="">
@@ -29,6 +27,19 @@ export default function Projects() {
                     skills="React JavaScript HTML CSS"
                 />
                 <Project
+                    title="Real Time Object Detection Explained"
+                    photo={YOLO}
+                    link="https://github.com/JasperGrant/Real-Time-Object-Detection-Explained"
+                    description="Python demo project showing a simple use of yolov5 with OpenCV and Pytorch for Object Detection"
+                />
+                <Project
+                    title="Hercules Robot"
+                    photo={Hercules}
+                    link="https://github.com/JasperGrant/Hercules-Robot"
+                    description="Mine Detection Robot. Winner of 2nd place in the Gregson Robotic Design Competition."
+                    skills="Autonomous Pathfinding, C++, Python"
+                />
+                <Project
                     title="LORIS Satellite PCBs"
                     photo={LORIS2}
                     link="https://dalorbits.ca/2019/07/01/loris-2021/"
@@ -43,24 +54,11 @@ export default function Projects() {
                     skills="PCB Design Project Management C"
                 />
                 <Project
-                    title="Hercules Robot"
-                    photo={Hercules}
-                    link="https://github.com/JasperGrant/Hercules-Robot"
-                    description="Mine Detection Robot. Winner of 2nd place in the Gregson Robotic Design Competition."
-                    skills="Autonomous Pathfinding, C++, Python"
-                />
-                <Project
                     title="X-Makina Assembly Emulator"
                     photo={XMakina}
                     link="https://github.com/JasperGrant/XMX-Emulator"
                     description="Assembly emulator written entirely in C"
                     skills="C Assembly"
-                />
-                <LinkedToSiteProject
-                    title="Atlantic Engineering Competition: EGG"
-                    photo={EGG}
-                    link="/egg"
-                    description="Egg Protection Rocket. Winner of 1st place in the Senior Design category of the Atlantic Engineering Competition."
                 />
                 <Project
                     title="Robotic Spacecraft Simulator Software"
@@ -88,21 +86,6 @@ export function Project(props) {
                 <h5 className="text-center w-full mb-2 text-2xl font-bold text-white">{props.title}</h5>
                 <p className="px-8 mx-8 text-left w-full font-normal text-white">{props.description}</p>
             </a>
-        </div>
-    );
-
-}
-
-
-export function LinkedToSiteProject(props) {
-    return (
-        <div className="m-4 my-4 rounded-sm">
-            <Link to={props.link}>
-                <img className="bg-white rounded-lg object-cover w-full h-56 hover:border-8 hover:border-turquoise"
-                     src={props.photo} alt="Project"/>
-                <h5 className="text-center w-full mb-2 text-2xl font-bold text-white">{props.title}</h5>
-                <p className="px-8 mx-8 text-left w-full font-normal text-white">{props.description}</p>
-            </Link>
         </div>
     );
 
