@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.72a57aca.css",
-    "main.js": "/static/js/main.49515df9.js",
+    "main.css": "/static/css/main.402cfc73.css",
+    "main.js": "/static/js/main.08ca2e74.js",
     "static/media/Hercules.png": "/static/media/Hercules.cf5b067f8e6986059a64.png",
     "static/media/DALCampus.png": "/static/media/DALCampus.257b945d7a5c6eb87812.png",
+    "static/media/RSSCMG.png": "/static/media/RSSCMG.f1ab11f23a9b029f1c8a.png",
     "static/media/Jasper.png": "/static/media/Jasper.e4a6687c655085356161.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.d9dda200279904f45a1d.png",
+    "static/media/TurnkeyPCB.png": "/static/media/TurnkeyPCB.8296bdfe15240e2fc325.png",
     "static/media/YOLO.png": "/static/media/YOLO.bf613440749f756f0114.png",
     "static/media/LORIS.png": "/static/media/LORIS.691b39103b9a6ef5ce1e.png",
     "static/media/RSS.png": "/static/media/RSS.7cb6d5ed4573b27aaaa5.png",
@@ -14,15 +16,17 @@
     "static/media/LastSpot.png": "/static/media/LastSpot.027f0d94c1556bf624c6.png",
     "static/media/LockheedMartin.png": "/static/media/LockheedMartin.b08b89cddb9d75088420.png",
     "static/media/DALISL.png": "/static/media/DALISL.5028dab7bf861bd40eaf.png",
+    "static/media/MDA.png": "/static/media/MDA.220cc2ca0205dfcf1cb0.png",
+    "static/media/Turnkey.png": "/static/media/Turnkey.aaccd2fc7748a20c9cbf.png",
     "static/media/ISE.png": "/static/media/ISE.623fe3d2e8a6632b4fbe.png",
     "static/media/LinkedinLogo.png": "/static/media/LinkedinLogo.ba884e1f9ad4362348c1.png",
     "static/media/XMakina.png": "/static/media/XMakina.8adbf0b0e70c949fb881.png",
     "index.html": "/index.html",
-    "main.72a57aca.css.map": "/static/css/main.72a57aca.css.map",
-    "main.49515df9.js.map": "/static/js/main.49515df9.js.map"
+    "main.402cfc73.css.map": "/static/css/main.402cfc73.css.map",
+    "main.08ca2e74.js.map": "/static/js/main.08ca2e74.js.map"
   },
   "entrypoints": [
-    "static/css/main.72a57aca.css",
-    "static/js/main.49515df9.js"
+    "static/css/main.402cfc73.css",
+    "static/js/main.08ca2e74.js"
   ]
 }
