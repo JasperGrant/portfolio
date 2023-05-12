@@ -7,11 +7,33 @@ import XMakina from '../img/XMakina.png';
 import RSS from '../img/RSS.png';
 import RSS2 from '../img/RSS2.png'
 import YOLO from '../img/YOLO.png'
+import RSSCMG from '../img/RSSCMG.png'
+import Chip8 from '../img/Chip8.png'
+import TurnkeyPCB from '../img/TurnkeyPCB.png'
+
 export default function Projects() {
     return (
         <div className="">
             <h1 className="text-xl text-white text-center pt-8" > My Projects</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto xxl:h-screen">
+                <Project
+                    title="RSS Control Moment Gyro"
+                    photo={RSSCMG}
+                    link="https://www.linkedin.com/feed/update/urn:li:activity:7052032813725876224/"
+                    description="CMG for the Robotic Spacecraft Simulator. Winner of the Dalhousie Capstone Conference 2023 - Best Poster (ECED4900)"
+                />
+                <Project
+                    title="Chip8 Emulator"
+                    photo={Chip8}
+                    link="https://github.com/JasperGrant/Chip-8-Emulator"
+                    description="Simple interpreter using Chip8 instruction set. Uses SDL2 for graphics"
+                />
+                <Project
+                    title="Turnkey Aquaponics Buck Converter"
+                    photo={TurnkeyPCB}
+                    link="https://turnkeyaquaponics.ca/"
+                    description="Buck Converter PCB completed over a 50 hour work integrated learning term"
+                />
                 <Project
                     title="Portfolio Website"
                     photo={Portfolio}

@@ -13,7 +13,7 @@ export default function Homepage() {
                 <br/>
                 <h1 className="text-3xl mb-8">Jasper Grant</h1>
                 <h2 className="text-xl mb-8">Computer Engineering Student at Dalhousie University</h2>
-                <h2 className="text-xl mb-8">Software Engineering Co-op Student at ISE</h2>
+                <h2 className="text-xl mb-8">Software Engineering Co-op Student at MDA Space</h2>
             </div>
             <br/>
             <br/>
