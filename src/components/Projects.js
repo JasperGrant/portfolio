@@ -10,6 +10,9 @@ import YOLO from '../img/YOLO.png'
 import RSSCMG from '../img/RSSCMG.png'
 import Chip8 from '../img/Chip8.png'
 import TurnkeyPCB from '../img/TurnkeyPCB.png'
+import Firelink from '../img/Firelink.png'
+import S_Machine from '../img/S_Machine_Tests.png'
+import holidAI from '../img/holidAI.png'
 
 export default function Projects() {
     return (
@@ -21,6 +24,24 @@ export default function Projects() {
                     photo={RSSCMG}
                     link="https://www.linkedin.com/feed/update/urn:li:activity:7052032813725876224/"
                     description="CMG for the Robotic Spacecraft Simulator. Winner of the Dalhousie Capstone Conference 2023 - Best Poster (ECED4900)"
+                />
+                <Project
+                    title="Firelink"
+                    photo={Firelink}
+                    link="https://www.canva.com/design/DAFwmd8YF6s/h91_qewKTttBqWk-wFcksg/view?utm_content=DAFwmd8YF6s&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=publishsharelink"
+                    description="Real time Updatable Satellite and Aerial Photography Map. Winner of the NASA Spaceapps 2023 Nova Scotia Competition. Global Nominee in International Spaceapps Competition"
+                />
+                <Project
+                    title="S-Machine 16-bit Verilog CPU"
+                    photo={S_Machine}
+                    link="https://github.com/JasperGrant/S-Machine-CPU"
+                    description="Simple 16-bit Instruction set Architecture for a CPU known as the 'S-Machine'. Written in Verilog for ECED4260 IC Design"
+                />
+                <Project
+                    title="holidAI"
+                    photo={holidAI}
+                    link="https://github.com/orgs/Generative-AI-2023/repositories"
+                    description="AI trip planner designed for the 2023 Dalhousie Generative AI Hackathon"
                 />
                 <Project
                     title="Chip8 Emulator"
@@ -104,7 +125,7 @@ export function Project(props) {
         <div className="m-4 my-4 rounded-sm">
             <a href={props.link}>
                 <img className="bg-white rounded-lg object-cover w-full h-56 hover:border-8 hover:border-turquoise"
-                     src={props.photo} alt="Project"/>
+                    src={props.photo} alt="Project" />
                 <h5 className="text-center w-full mb-2 text-2xl font-bold text-white">{props.title}</h5>
                 <p className="px-8 mx-8 text-left w-full font-normal text-white">{props.description}</p>
             </a>
