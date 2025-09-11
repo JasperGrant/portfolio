@@ -13,23 +13,70 @@ import TurnkeyPCB from '../img/TurnkeyPCB.png'
 import Firelink from '../img/Firelink.png'
 import S_Machine from '../img/S_Machine_Tests.png'
 import holidAI from '../img/holidAI.png'
+import chrono from '../img/RL_env.png'
+import LRV from '../img/LRV.png'
+import Gerard from '../img/Gerard.png'
+import FootFighters from '../img/FootFighters.png'
+import TX from '../img/TX.png'
+import ASTBERT from '../img/ASTBERT.png'
 
 export default function Projects() {
     return (
         <div className="">
-            <h1 className="text-xl text-white text-center pt-8" > My Projects</h1>
+            <h1 className="text-xl text-yellow text-center pt-8" > My Projects</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto xxl:h-screen">
+                <Project
+                    title="Terrain-Adaptive Transit and Maneuvers to Prevent and Recover from Ground Robot Wheel-Slip in Harsh Environments"
+                    photo={chrono}
+                    link="https://www.linkedin.com/feed/update/urn:li:activity:7316974098503401473/"
+                    description="In Progress - Research project for MASc. Thesis at Dalhousie University"
+
+                />
+                <Project
+                    title="Apollo 15 Lunar Roving Vehicle Simulation"
+                    photo={LRV}
+                    link="https://github.com/space-ros/demos/pull/62"
+                    description="Simulation of the Apollo 15 Lunar Roving Vehicle in Gazebo and ROS2. Won an Honorable Mention in the 2024 NASA Space ROS Sim Summer Sprint Challenge"
+                />
+                <Project
+                    title="Gerard Robot"
+                    photo={Gerard}
+                    link="https://github.com/JasperGrant/Gerard-Robot"
+                    description="Design project for MECH6905 (Autonomous Robotics) - Project involved mapping a known environment with an unknown number of obstacles distributed randomly."
+                />
+                <Project
+                    title="Implementation of a Full Transmitter, Receiver, and Equalizer System in C"
+                    photo={TX}
+                    link="https://github.com/JasperGrant/ECED6576_Project"
+                    description="Implementation of a full transmitter, receiver, and equalizer system in C. Built for ECED6576 (Software Defined Radio Design)"
+                    />
+
                 <Project
                     title="RSS Control Moment Gyro"
                     photo={RSSCMG}
                     link="https://www.linkedin.com/feed/update/urn:li:activity:7052032813725876224/"
                     description="CMG for the Robotic Spacecraft Simulator. Winner of the Dalhousie Capstone Conference 2023 - Best Poster (ECED4900)"
                 />
+
+                <Project
+                    title="ASTBERT: Method Name Prediction Using AST (Abstract Syntax Tree) Representation with BERT Models"
+                    photo={ASTBERT}
+                    link="https://github.com/JasperGrant/ASTBERT"
+                    description="Using ASTs and BERT models to predict method names from Java source code. Built for CSCI6314 (Applied Machine Learning for Software Engineers)"
+                    />
+
+                <Project
+                    title="Foot Fighters"
+                    photo={FootFighters}
+                    link="https://github.com/JasperGrant/FootFighters"
+                    description="2D Fighting Game built in Godot with C#. Built for Global Game Jam 2024"
+                    />
+
                 <Project
                     title="Firelink"
                     photo={Firelink}
                     link="https://www.canva.com/design/DAFwmd8YF6s/h91_qewKTttBqWk-wFcksg/view?utm_content=DAFwmd8YF6s&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=publishsharelink"
-                    description="Real time Updatable Satellite and Aerial Photography Map. Winner of the NASA Spaceapps 2023 Nova Scotia Competition. Global Nominee in International Spaceapps Competition"
+                    description="Real time Updatable Satellite and Aerial Photography Map. Second place in the Canadian National Spaceapps Competition and first place of the Nova Scotia Competition. (2023)"
                 />
                 <Project
                     title="S-Machine 16-bit Verilog CPU"
@@ -126,7 +173,7 @@ export function Project(props) {
             <a href={props.link}>
                 <img className="bg-white rounded-lg object-cover w-full h-56 hover:border-8 hover:border-turquoise"
                     src={props.photo} alt="Project" />
-                <h5 className="text-center w-full mb-2 text-2xl font-bold text-white">{props.title}</h5>
+                <h5 className="text-center w-full mb-2 text-2xl font-bold text-yellow hover:underline">{props.title}</h5>
                 <p className="px-8 mx-8 text-left w-full font-normal text-white">{props.description}</p>
             </a>
         </div>

@@ -15,7 +15,8 @@ module.exports = {
         'plum': '#583759',
         'neutral': '#27272a',
         'turquoise': '#2dd4bf',
-        'white': '#ffffff'
+        'white': '#ffffff',
+        'yellow': '#FFCF43'
       }
     },
   },

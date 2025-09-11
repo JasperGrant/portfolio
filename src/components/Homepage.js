@@ -11,14 +11,14 @@ export default function Homepage() {
             <br/>
             <div className="mx-auto rounded-lg bg-neutral border-8 border-plum max-w-6xl px-16">
                 <br/>
-                <h1 className="text-3xl mb-8">Jasper Grant</h1>
+                <h1 className="text-3xl mb-8 text-yellow">Jasper Grant</h1>
                 <h2 className="text-xl mb-8">Electrical and Computer Engineering Master's Student at Dalhousie University</h2>
             </div>
             <br/>
             <br/>
             <br/>
             <Link to="projects"
-                  className=" rounded-lg bg-neutral text-center px-3 py-2 border-8 text-white hover:text-turquoise">Click
+                  className=" rounded-lg bg-neutral text-center px-3 py-2 border-8 text-yellow hover:text-turquoise">Click
                 here to see
                 my projects</Link>
             <br/>
