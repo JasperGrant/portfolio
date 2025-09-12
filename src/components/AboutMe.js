@@ -7,7 +7,7 @@ import Dalhousie from '../img/Dalhousie.png';
 
 export default function AboutMe() {
     return (
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto min-h-screen">
             <h1 className="text-xl text-yellow text-center py-8" > About Me</h1>
             <div className="text-white px-8 sm:px-8 md:px-24">
                 My name is Jasper Grant.

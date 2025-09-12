@@ -3,7 +3,7 @@ import Jasper from '../img/Jasper.png';
 
 export default function Homepage() {
     return (
-        <div className="h-full md:px-24 lg:px-72 bg-center bg-cover bg-no-repeat bg-DALCampus text-white text-center max-w-6xl mx-auto hxl:h-screen">
+        <div className="flex flex-col min-h-screen md:px-24 lg:px-72 bg-center bg-cover bg-no-repeat bg-DALCampus text-white text-center max-w-6xl mx-auto hxl:h-screen">
             <br/>
             <br/>
             <br/>
