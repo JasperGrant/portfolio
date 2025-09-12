@@ -22,9 +22,9 @@ import ASTBERT from '../img/ASTBERT.png'
 
 export default function Projects() {
     return (
-        <div className="">
+        <div className="flex flex-col min-h-screen">
             <h1 className="text-xl text-yellow text-center pt-8" > My Projects</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto xxl:h-screen">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto ">
                 <Project
                     title="Terrain-Adaptive Transit and Maneuvers to Prevent and Recover from Ground Robot Wheel-Slip in Harsh Environments"
                     photo={chrono}

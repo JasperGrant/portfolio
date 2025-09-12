@@ -16,7 +16,7 @@ export default function Publications() {
                     link_explanation = "Link directs to IEEE Xplore Link"
                     title = "3DOF Proximity Flight Emulation with a Planar Air-Bearing Testbed"
                     link = "https://ieeexplore.ieee.org/document/11053738"
-                    authors = "Jasper Grant, John Doe"
+                    authors = "E. Gregson, M. Adolph, E. Vautour, J. Grant, N. Cain, R. Bauer, M. Seto"
                     year="2024"
                 />
                 <Publication
