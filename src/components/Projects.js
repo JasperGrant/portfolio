@@ -19,6 +19,7 @@ import Gerard from '../img/Gerard.png'
 import FootFighters from '../img/FootFighters.png'
 import TX from '../img/TX.png'
 import ASTBERT from '../img/ASTBERT.png'
+import asteroid from '../img/screenshot.png'
 
 export default function Projects() {
     return (
@@ -37,6 +38,13 @@ export default function Projects() {
                     photo={LRV}
                     link="https://github.com/space-ros/demos/pull/62"
                     description="Simulation of the Apollo 15 Lunar Roving Vehicle in Gazebo and ROS2. Won an Honorable Mention in the 2024 NASA Space ROS Sim Summer Sprint Challenge"
+                />
+                <Project
+                    title="Asteroid Atlas"
+                    photo={asteroid}
+                    link="https://github.com/parasnathseth/Asteroid-Atlas"
+                    description="A visualization tool for both asteroid orbits and earth impacts. Second place in the 2025 Nova Scotia SpaceApps Competition"
+
                 />
                 <Project
                     title="Gerard Robot"
