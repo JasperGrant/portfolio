@@ -12,7 +12,7 @@ export default function Homepage() {
             <div className="mx-auto rounded-lg bg-neutral border-8 border-plum max-w-6xl px-16">
                 <br/>
                 <h1 className="text-3xl mb-8 text-yellow">Jasper Grant</h1>
-                <h2 className="text-xl mb-8">Electrical and Computer Engineering Master's Student at Dalhousie University</h2>
+                <h2 className="text-xl mb-8">Incoming NASA Ames Intern<br/>Electrical and Computer Engineering MASc. Student at Dalhousie University</h2>
             </div>
             <br/>
             <br/>

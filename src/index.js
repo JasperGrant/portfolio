@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import Projects from "./components/Projects"
 import Homepage from './components/Homepage';
 import Publications from "./components/Publications"
@@ -18,7 +18,7 @@ root.render(
             <link href="/dist/output.css" rel="stylesheet"/>
         </head>
         <div className="h-full flex flex-col bg-neutral w-full overflow-x-hidden">
-            <BrowserRouter>
+            <HashRouter>
                 <Header/>
                 <Routes>
                     <Route path="/" element={<Homepage/>}/>
@@ -26,7 +26,7 @@ root.render(
                     <Route path="Publications" element={<Publications/>}/>
                     <Route path="aboutme" element={<AboutMe/>}/>
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
             <Footer/>
         </div>
     </React.StrictMode>

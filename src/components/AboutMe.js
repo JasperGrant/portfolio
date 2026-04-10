@@ -4,6 +4,7 @@ import ISE from '../img/ISE.png';
 import Turnkey from '../img/Turnkey.png';
 import MDA from '../img/MDA.png';
 import Dalhousie from '../img/Dalhousie.png';
+import NASA from '../img/NASA.jpg';
 
 export default function AboutMe() {
     return (
@@ -22,20 +23,25 @@ export default function AboutMe() {
                 <a className="text-center hover:text-turquoise" href="mailto:jasper.grant@dal.ca"><u>jasper.grant@dal.ca</u></a>
                 <br/>
                 <br/>
+                Currently seeking full-time roles in Robotics, Space and Software for September 2026.
                 <br/>
                 <h1 className="text-xl text-center py-8 text-yellow" > My Past Work Experience</h1>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto xxl:h-screen">
-
                 <Coop
-                    photo={Dalhousie}
-                    company="Dalhousie University"
-                    position= "Teaching Assistant (ECED3901 Robotics) - 2024"
+                    photo={NASA}
+                    company="NASA Ames Research Center"
+                    position={"OSTEM Intern (Visual Navigation and Control for Lunar Rover Autonomy) - 2026"}
                 />
                 <Coop
                     photo={MDA}
                     company="MDA Space"
-                    position="Software Engineering Co-op Student - 2023"
+                    position={"MITACS Intern - 2026\nSoftware Engineering Co-op Student - 2023"}
+                />
+                <Coop
+                    photo={Dalhousie}
+                    company="Dalhousie University"
+                    position={"Teaching Assistant (MECH4640 Robotics) - 2025\nTeaching Assistant (ECED3901 Robotics) - 2024"}
                 />
                 <Coop
                     photo={Turnkey}
@@ -69,7 +75,7 @@ export function Coop(props) {
         <div className="m-4 my-4 rounded-sm">
             <img className="bg-white rounded-lg object-cover w-full h-56" src={props.photo} alt="Project"/>
             <h5 className="text-center w-full mb-2 text-2xl font-bold text-yellow">{props.company}</h5>
-            <p className="mx-8 text-left w-full font-normal text-white">{props.position}</p>
+            <p className="mx-8 text-left w-full font-normal text-white whitespace-pre-line">{props.position}</p>
         </div>
     );
 
