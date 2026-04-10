@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.328e0dd4.css",
-    "main.js": "/static/js/main.c136d316.js",
+    "main.css": "/static/css/main.156bffe3.css",
+    "main.js": "/static/js/main.b3c4fa69.js",
     "static/media/Gerard.png": "/static/media/Gerard.9241719eaf2a77e2d8c6.png",
     "static/media/screenshot.png": "/static/media/screenshot.86af4676089d1740808f.png",
     "static/media/Hercules.png": "/static/media/Hercules.cf5b067f8e6986059a64.png",
@@ -23,22 +23,23 @@
     "static/media/LORIS2.png": "/static/media/LORIS2.b700b35237db7c7dc096.png",
     "static/media/Firelink.png": "/static/media/Firelink.55b8a3417c3b566a37b3.png",
     "static/media/holidAI.png": "/static/media/holidAI.0dd7b8d4522c34d1ac36.png",
+    "static/media/Turnkey.png": "/static/media/Turnkey.ffe35118297dc1ab9c23.png",
     "static/media/FootFighters.png": "/static/media/FootFighters.648d8ca395068212f629.png",
+    "static/media/NASA.jpg": "/static/media/NASA.430d8f186ff9a1f4c023.jpg",
     "static/media/LastSpot.png": "/static/media/LastSpot.027f0d94c1556bf624c6.png",
-    "static/media/LockheedMartin.png": "/static/media/LockheedMartin.b08b89cddb9d75088420.png",
+    "static/media/LockheedMartin.png": "/static/media/LockheedMartin.97301d335dbd05df3260.png",
     "static/media/DALISL.png": "/static/media/DALISL.5028dab7bf861bd40eaf.png",
     "static/media/S_Machine_Tests.png": "/static/media/S_Machine_Tests.30b363e9e968d6c9890c.png",
     "static/media/MDA.png": "/static/media/MDA.220cc2ca0205dfcf1cb0.png",
-    "static/media/Turnkey.png": "/static/media/Turnkey.aaccd2fc7748a20c9cbf.png",
     "static/media/ISE.png": "/static/media/ISE.623fe3d2e8a6632b4fbe.png",
     "static/media/LinkedinLogo.png": "/static/media/LinkedinLogo.ba884e1f9ad4362348c1.png",
     "static/media/XMakina.png": "/static/media/XMakina.8adbf0b0e70c949fb881.png",
     "index.html": "/index.html",
-    "main.328e0dd4.css.map": "/static/css/main.328e0dd4.css.map",
-    "main.c136d316.js.map": "/static/js/main.c136d316.js.map"
+    "main.156bffe3.css.map": "/static/css/main.156bffe3.css.map",
+    "main.b3c4fa69.js.map": "/static/js/main.b3c4fa69.js.map"
   },
   "entrypoints": [
-    "static/css/main.328e0dd4.css",
-    "static/js/main.c136d316.js"
+    "static/css/main.156bffe3.css",
+    "static/js/main.b3c4fa69.js"
   ]
 }
