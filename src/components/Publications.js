@@ -5,15 +5,15 @@ export default function Publications() {
             <div className="flex-1 max-w-6xl mx-auto w-full">
                 <Publication
                     conference_journal_line = "Paper presented at IEEE Aerospace Conference 2026, Big Sky, Montana, USA"
-                    link_explanation = "Link directs to LinkedIn post until IEEE Xplore publication"
+                    link_explanation = "Directs to IEEE Xplore Link"
                     title = "Terrain Adaptive Strategies to Prevent and Recover from Rover Wheel-Slip"
-                    link = "https://www.linkedin.com/feed/update/urn:li:activity:7316974098503401473/"
+                    link = "https://ieeexplore.ieee.org/document/11519932"
                     authors = "J. Grant, M. Seto, P. Grouchy"
                     year="2026"
                 />
                 <Publication
                     conference_journal_line = "Paper presented at ICACR 2024, Xiangyang, China"
-                    link_explanation = "Link directs to IEEE Xplore Link"
+                    link_explanation = "Directs to IEEE Xplore Link"
                     title = "3DOF Proximity Flight Emulation with a Planar Air-Bearing Testbed"
                     link = "https://ieeexplore.ieee.org/document/11053738"
                     authors = "E. Gregson, M. Adolph, E. Vautour, J. Grant, N. Cain, R. Bauer, M. Seto"
