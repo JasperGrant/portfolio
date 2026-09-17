@@ -20,12 +20,21 @@ import FootFighters from '../img/FootFighters.png'
 import TX from '../img/TX.png'
 import ASTBERT from '../img/ASTBERT.png'
 import asteroid from '../img/screenshot.png'
+import Poster_Finished from '../img/Poster_Finished.jpg';
+import PageHeading from './PageHeading';
 
 export default function Projects() {
     return (
-        <div className="flex flex-col min-h-screen">
-            <h1 className="text-xl text-yellow text-center pt-8" > My Projects</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto ">
+        <div className="flex flex-col min-h-screen bg-neutral">
+            <PageHeading>My Projects</PageHeading>
+            <div className="grid grid-cols-1 gap-6 max-w-6xl mx-auto px-6 pb-16 sm:grid-cols-2 md:grid-cols-3">
+                <Project
+                    title="Rover Terrain Identification via Factor-Graph Estimation of a Parametric Slip Model"
+                    photo={Poster_Finished}
+                    link="https://www.linkedin.com/feed/update/urn:li:activity:7492992595443425280/"
+                    description="NASA Ames Summer Internship Project"
+
+                />
                 <Project
                     title="Terrain-Adaptive Transit and Maneuvers to Prevent and Recover from Ground Robot Wheel-Slip in Harsh Environments"
                     photo={chrono}
@@ -177,14 +186,17 @@ export default function Projects() {
 
 export function Project(props) {
     return (
-        <div className="m-4 my-4 rounded-sm">
-            <a href={props.link}>
-                <img className="bg-white rounded-lg object-cover w-full h-56 hover:border-8 hover:border-turquoise"
-                    src={props.photo} alt="Project" />
-                <h5 className="text-center w-full mb-2 text-2xl font-bold text-yellow hover:underline">{props.title}</h5>
-                <p className="px-8 mx-8 text-left w-full font-normal text-white">{props.description}</p>
-            </a>
-        </div>
+        <a href={props.link}
+           className="group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-turquoise/60 hover:shadow-2xl">
+            <div className="overflow-hidden">
+                <img className="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    src={props.photo} alt="Project" width="384" height="224" loading="lazy" decoding="async" />
+            </div>
+            <div className="flex flex-1 flex-col p-6">
+                <h5 className="mb-2 text-xl font-bold text-yellow transition-colors group-hover:text-turquoise">{props.title}</h5>
+                <p className="text-sm font-normal text-gray-300">{props.description}</p>
+            </div>
+        </a>
     );
 
 }

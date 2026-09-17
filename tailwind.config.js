@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'DALCampus' : "url('./img/DALCampus.png')"
+        'Ames' : "url('./img/Ames.jpg')"
       },
       screens: {
         'xxl': '2500px',
