@@ -19,10 +19,10 @@ export default function Homepage() {
                 />
                 <div className="max-w-2xl rounded-2xl border border-white/10 bg-white/5 px-8 py-10 shadow-2xl backdrop-blur-md sm:px-16">
                     <h1 className="mb-4 text-4xl font-bold tracking-tight text-yellow sm:text-5xl">Jasper Grant</h1>
-                    <h2 className="text-lg leading-relaxed text-gray-200 sm:text-xl">
-                        NASA Ames Research Intern
-                        <br/>
-                        Electrical and Computer Engineering MASc. Student at Dalhousie University
+                    <h2 className="space-y-3 text-lg leading-relaxed text-gray-200 sm:text-xl">
+                        <span className="block">Incoming NASA JPL Mars Rover Autonomy Intern</span>
+                        <span className="block border-t border-white/20 pt-3">NASA Ames Research Intern</span>
+                        <span className="block border-t border-white/20 pt-3">Electrical and Computer Engineering MASc. Student at Dalhousie University</span>
                     </h2>
                 </div>
                 <Link

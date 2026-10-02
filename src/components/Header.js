@@ -15,7 +15,7 @@ export default function Header() {
             <MenuButton path = "aboutme" text="About Me"/>
             </div>
             <a
-                href={`${process.env.PUBLIC_URL}/resume.pdf`}
+                href={`${process.env.PUBLIC_URL}/Resume_Oct_2026.pdf`}
                 download
                 className="ml-auto rounded-full bg-yellow px-4 py-2 text-sm font-semibold text-neutral shadow-md transition-all duration-300 hover:scale-105 hover:bg-turquoise hover:text-white"
             >

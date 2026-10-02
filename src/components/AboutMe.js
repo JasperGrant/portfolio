@@ -6,6 +6,7 @@ import MDA from '../img/MDA.png';
 import Dalhousie from '../img/Dalhousie.png';
 import NASA from '../img/NASA.jpg';
 import PageHeading from './PageHeading';
+import JPL from '../img/JPL.png';
 
 export default function AboutMe() {
     return (
@@ -25,18 +26,24 @@ export default function AboutMe() {
                     <a className="text-turquoise hover:underline" href="mailto:jasper.grant@dal.ca">jasper.grant@dal.ca</a>
                 </p>
                 <p className="mt-4">
-                    Currently seeking full-time roles in Robotics, Space and Software for September 2026.
+                    Currently seeking full-time roles in Robotics, Space and Software starting June 2027.
                 </p>
                 <a
-                    href={`${process.env.PUBLIC_URL}/resume.pdf`}
+                    href={`${process.env.PUBLIC_URL}/Resume_Oct_2026.pdf`}
                     download
                     className="mt-6 inline-flex items-center gap-2 rounded-full bg-yellow px-5 py-2.5 font-semibold text-neutral shadow-lg transition-all duration-300 hover:scale-105 hover:bg-turquoise hover:text-white"
                 >
                     Download My Resume
                 </a>
             </div>
-            <PageHeading>My Past Work Experience</PageHeading>
+            <PageHeading>My Work Experience</PageHeading>
             <div className="grid grid-cols-1 gap-6 px-6 pb-16 sm:grid-cols-2 md:grid-cols-3">
+                <Coop
+                    photo={JPL}
+                    company="NASA Jet Propulsion Laboratory (JPL)"
+                    position={"Mars Rover Autonomy Intern - 2027"}
+                />
+                
                 <Coop
                     photo={NASA}
                     company="NASA Ames Research Center"
