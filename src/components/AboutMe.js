@@ -29,7 +29,7 @@ export default function AboutMe() {
                     Currently seeking full-time roles in Robotics, Space and Software starting June 2027.
                 </p>
                 <a
-                    href={`${process.env.PUBLIC_URL}/Resume_Oct_2026.pdf`}
+                    href={`${process.env.PUBLIC_URL}/Jasper_Grant_Resume.pdf`}
                     download
                     className="mt-6 inline-flex items-center gap-2 rounded-full bg-yellow px-5 py-2.5 font-semibold text-neutral shadow-lg transition-all duration-300 hover:scale-105 hover:bg-turquoise hover:text-white"
                 >
